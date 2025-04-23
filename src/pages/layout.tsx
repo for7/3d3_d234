@@ -11,7 +11,7 @@ export default function Layout() {
   const location = useLocation();
   const [userState] = store.useModel("user");
 
-  if (["/login", ].includes(location.pathname)) {
+  if (["/login", "/3d/iox"].includes(location.pathname)) {
     return <Outlet />;
   }
 
@@ -43,9 +43,9 @@ export default function Layout() {
       <div
         style={{
           padding: "0",
-          background: "#000",
+          // background: "#000",
           minHeight: "90vh",
-          marginTop: "0",
+          marginTop: "0px",
           marginBottom: "24px",
           borderRadius: "8px",
         }}

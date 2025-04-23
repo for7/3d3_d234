@@ -9,14 +9,19 @@
     "@ant-design/pro-layout": "^7.1.6",
     "@ant-design/pro-table": "^3.0.17",
     "@ice/runtime": "^1.4.0",
+    "@pmndrs/branding": "^0.0.8",
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
     "@types/three": "^0.175.0",
     "antd": "^4.24.0",
+    "framer-motion": "^12.7.4",
     "lodash": "^4.17.21",
+    "maath": "^0.10.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "three": "^0.175.0"
+    "react-icons": "^5.5.0",
+    "three": "^0.175.0",
+    "valtio": "^2.1.4"
   },
   "devDependencies": {
     "@applint/spec": "^1.2.3",
