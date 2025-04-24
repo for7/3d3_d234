@@ -10,6 +10,7 @@
     "@ant-design/pro-table": "^3.0.17",
     "@ice/runtime": "^1.4.0",
     "@pmndrs/branding": "^0.0.8",
+    "@react-spring/three": "^9.7.5",
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
     "@types/three": "^0.175.0",
