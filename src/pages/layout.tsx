@@ -11,7 +11,7 @@ export default function Layout() {
   const location = useLocation();
   const [userState] = store.useModel("user");
 
-  if (["/login", "/3d/iox", "/3d/qyt"].includes(location.pathname)) {
+  if (["/login"].includes(location.pathname) || location.pathname.indexOf("/3d/") > -1) {
     return <Outlet />;
   }
 
