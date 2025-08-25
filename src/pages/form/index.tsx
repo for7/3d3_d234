@@ -12,7 +12,8 @@ import ProForm, {
 import { submitForm } from '@/services/form';
 import { definePageConfig } from 'ice';
 
-export default function Form() {
+export default function Form(props) {
+  console.log('Form props', props);
   const onFinish = async (values: Record<string, any>) => {
     submitForm(values).then(() => {
       message.success('提交成功');

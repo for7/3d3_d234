@@ -19,6 +19,12 @@ export const authConfig = defineAuthConfig(async (appData) => {
       admin: userInfo.userType === 'admin',
       user: userInfo.userType === 'user',
     },
+    NoAuthFallback: (routeConfig) => {
+      console.log(routeConfig); // 当前页面的配置 
+      return (
+        <div>没有权限</div>
+      );
+    },
   };
 });
 

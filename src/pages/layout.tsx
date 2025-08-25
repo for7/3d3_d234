@@ -1,4 +1,4 @@
-import { Outlet, Link, useLocation } from "ice";
+import { Link, useLocation } from "ice";
 import ProLayout from "@ant-design/pro-layout";
 import { asideMenuConfig } from "@/menuConfig";
 import AvatarDropdown from "@/components/AvatarDropdown";
@@ -6,6 +6,7 @@ import store from "@/store";
 import logo from "@/assets/logo.png";
 import styles from "./layout.module.css";
 import Footer from "@/components/Footer";
+import Outlet from "@/components/Outlet";
 
 export default function Layout() {
   const location = useLocation();
@@ -50,7 +51,7 @@ export default function Layout() {
           borderRadius: "8px",
         }}
       >
-        <Outlet />
+        <Outlet aa={'1'} />
       </div>
     </ProLayout>
   );
